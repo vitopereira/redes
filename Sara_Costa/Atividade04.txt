@@ -31,7 +31,10 @@ Variação de 256-192 = 64
 Rede - Broadcast
 0    -  63
 64   -  127 -----> Letra B.
- 
+
+Questão 5 -
+
+Resposta: Letra D.
  
 Questão 4 -
 IP10.24.24.24/29
