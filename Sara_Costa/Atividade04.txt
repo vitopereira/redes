@@ -32,10 +32,7 @@ Rede - Broadcast
 0    -  63
 64   -  127 -----> Letra B.
 
-Questão 5 -
 
-Resposta: Letra D.
- 
 Questão 4 -
 IP10.24.24.24/29
 11111000 = 248
@@ -46,6 +43,12 @@ Rede - Broadcast
 8    -  15
 16   -  23
 24   -  31 ---------> Endereço de rede, Letra D.
+
+
+Questão 5 -
+
+Resposta: Letra D.
+
 
 Questão 6 -
 11110000.00000000 = 240.0 (últimos octetos)
