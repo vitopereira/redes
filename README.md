@@ -6,4 +6,5 @@ UNIDADE I:
 ~~**Atividade 04**: subredes3.pdf (entrega 16/10)~~     
    
 UNIDADE II:   
-**Atividade 01:** config_interface.pdf (entrega 28/11)  
+**Atividade 01:** config_interface.pdf (entrega 27/11)  
+**Atividade 02:** revisao-camada-3.pdf (entrega 27/11)  
