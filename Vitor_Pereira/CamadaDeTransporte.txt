@@ -31,10 +31,4 @@ Resposta: Origem Y e Destino X.
 Questão 9. 
 Resposta: Pois uma das vantagens do UDP é que ele é mais rápido e tem baixa sobrecarga de dados, e em determinados tipos de aplicação não é necessário dizer que o dado chegou ao destino.
 
-Questão 10. 
-Resposta:
-a) 233->15
-b) 180->15
-c) 15->233
-d) 15->180
-e) Não, pois mesmo sendo hospedeiros, eles possuem número portas diferentes
+
