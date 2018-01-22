@@ -1,0 +1,52 @@
+Discente: Vitor José da Guarda Pereira
+Q 1.1: 
+A principal publicação cientifica relacionada ao mininet-wifi é o artigo Mininet-WiFi: Emulating Software-Defined Wireless Networks, escrito por Ramon R. Fontes, Samira Afzal, Samuel H. B. Brito, Mateus A. S. Santos, Christian Esteve Rothenberg, disponível no endereço: “http://www.dca.fee.unicamp.br/~chesteve/pubs/mansdn-cnsm15-mininet-wifi-ramon.pdf”. O artigo é bem explicativo, apresenta os objetivos da criação do Mininet-Wifi, as principais funções tanto do Mininet como do Mininet-Wifi.
+
+Q 2.1: 
+Não ocorreu perda de pacotes de um ping para outro. O atraso observado durou em uma média de 5636ms de um para outro. 
+
+Q 2.2: 
+Depois que usei esse comando, o resultado foi: STA1- 10.5 Mbits/sec e STA2- 10.6 Mbits/sec.
+
+Q 2.3: 
+TxPower: onde é controlada toda potência fornecida pelo [14]; 
+Wlan: faz parte da LAN ['sta1-wlan0'];
+IP: endereço da rede local: 10.0.0.1/8; 
+Range: é o alcance da rede;
+Mac: comunicação da rede: ['02:00:00:00:00:00']; 
+Frequency: frequência [2.412Hz]; 
+Mode: modelo da rede (wireless); 
+AntennaHeight: altura da antena;
+Position: posicão [1.0, 0.0 ,0.0];
+Channel: canal onde está;
+Rssi: nível de sinal;
+
+Q 2.4: 
+ANULADA
+
+Questão 3.1: 
+O nó que está incomunicável é o sta3. O AP1 é um ponto de acesso, e o nó está fora de alcance deste ponto de acesso.
+
+Questão 3.2: 
+O modelo que escolhi foi o LogDistancePropagationLossModel: define que as perdas de propagação são baseadas no modelo do logaritmo da distância. O sinal marcava -48 dBm no sta1, depois da mudança do modelo caiu para -62 dBm.
+
+Questão 3.3: 
+No ambiente que estava antes da mudança friisPropagationLossModel porém em um local sem interferência, para ter maior alcance.
+
+Questão 4.1: 
+O Iperf de sat1 foi -32dBm e sta3 foi -37dBm, os dois atingiram 18 Mbits/sec, e a distância foi de 50m.
+
+Questão 4.2: 
+É um comando que é executado com o intuito de detectar a energia passada no canal, em que se a mesma exceder o limite do CCA, o pacote não irá ser transmitido.
+
+Questão 5.1: 
+A comunicação foi interrompida. O sta1 alcançou a área AP2 saindo de sua área de origem (AP1), então não houve comunicação pelo fato do sta1 e sta2 estarem em locais distintos.
+
+Questão 5.2: 
+O nome do processo é handover, ele tem o objetivo de manter uma transmissão sem interrupções durante a mobilidade do usuário. 
+
+Questão 6.1: 
+Não conseguem a comunicação em ambos, pois os pontos ficam fora de alcance. 
+
+Questão 6.3: 
+Utilizaria modelos no qual é necessário mais precisão em relação um sta e outro, ou seja, quando estiver dando erros na distância das estações.  
